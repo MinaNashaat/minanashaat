@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mina Nashaat</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal CV</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f4f7;
+            color: #333;
+        }
+        .header {
+            background: #111827;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 0;
+        }
+        .section {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+            border-left: 5px solid #4f46e5;
+            padding-left: 10px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #4f46e5;
+            color: #fff;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .projects .item {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .projects .item:last-child {
+            border-bottom: none;
+        }
+        .contact a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .section {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+        .skills span:hover {
+            background: #3730a3;
+            cursor: pointer;
+        }
+        .projects .item h3 {
+            margin-bottom: 6px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4f46e5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
+        }
+
+
+    </style>
 </head>
 <body>
+    <div class="header">
+    <img src="mina.jpg" class="profile-img" />
     <h1>Mina Nashaat Ayoub Bebawy</h1>
+    <p>Android Developer | Software Engineer | Freelancer</p>
+</div>
+
+
+    <div class="container">
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I graduated from the Faculty of Computers and Information at Ain Shams University and I am currently studying at the Information Technology Institute, Department of Mobile Application Development.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>Kotlin</span>
+                <span>Java</span>
+                <span>Android Development</span>
+                <span>Room Database</span>
+                <span>REST APIs</span>
+                <span>Git & GitHub</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Android Developer</strong> – Google Play (2022–2025)</li>
+                <li><strong>Freelancer</strong> – Google Play developed and Published Apps</li>
+            </ul>
+        </div>
+
+        <div class="section projects">
+            <h2>Projects</h2>
+            <div class="item">
+                <h3>Attendance System (Android)</h3>
+                <p>offline and online system for church attendance</p>
+            </div>
+            <div class="item">
+                <h3>Shopping App (Android)</h3>
+                <p>Full app with login, Room DB, barcode scanning, admin panel.</p>
+            </div>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:menanashat987@gmail.com">menanashat987@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone"></i> +201284800943</p>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/MinaNashaat" target="_blank">GitHub Profile</a></p>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/mina-nashaat-android/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+
+    </div>
+    <footer style="text-align:center; padding:20px; color:#555;">
+        © 2025 Mina Nashaat – All Rights Reserved
+    </footer>
+
 </body>
 </html>
